@@ -1,0 +1,20 @@
+# Build outputs
+/build/
+*.o
+*.so
+*.a
+
+# CMake / generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Model weights and TensorRT engines
+/weights/*.engine
+/weights/*.onnx
+/weights/*.pt
+
+# Local tool metadata
+.codex
+.sixth/
